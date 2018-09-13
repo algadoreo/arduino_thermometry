@@ -20,4 +20,4 @@ The Arduino DUE, unlike other models, has two separate I<sup>2</sup>C ports, all
 
 Once the message chain has completed its circuit – i.e., readings have been taken from every device and returned to Device 0 – it is sent back to the main computer by Device 0 via serial, and the `isDev0` flag reverts to `false`. The cycle begins anew.
 
-![Arduino chain setup](https://github.com/algadoreo/arduino_thermometry/img/arduino_due_chain.png)
+![Arduino chain setup](img/arduino_due_chain.png)
